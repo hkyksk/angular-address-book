@@ -1,0 +1,20 @@
+<form [formGroup]="contactForm" (ngSubmit)="onSubmit()">
+    <h2>Contact Information</h2>
+    <div>
+        <h3>First Name:</h3>
+        <input type="text" formControlName="firstName" style="width: 300px;">
+    </div>
+    <div>
+        <h3>Last Name:</h3>
+        <input type="text" formControlName="lastName" style="width: 300px;">
+    </div>
+    <div>
+        <h3>Street:</h3>
+        <input type="text" formControlName="street" style="width: 300px;">
+    </div>
+    <div style="margin-bottom: 10px;">
+        <h3>City:</h3>
+        <input type="text" formControlName="city" style="width: 300px;">
+    </div>
+    <button type="submit" style="float: right;">Create</button>
+</form>

@@ -1,0 +1,9 @@
+.space {
+    margin-right: 20em;
+}
+
+.line {
+    width: calc(100%);
+    border-top: 1px solid grey;
+}
+
